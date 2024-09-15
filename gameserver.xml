@@ -493,7 +493,7 @@
         <SafeServerConfig>
             <ConnectionStatusNotifyConfig enable="false" host="devapi-takumi.mihoyo.com" port="443"
                                           login_uri="/bat/game/gameLoginNotify" logout_uri="/bat/game/gameLogoutNotify" heartbeat_uri="/bat/game/gameHeartBeatNotify"
-                                          is_ssl="true" method="POST" timeout="5" heartbeat_interval="300">
+                                          is_ssl="false" method="POST" timeout="5" heartbeat_interval="300">
                 <Head name="Content-Type" value="application/json"/>
             </ConnectionStatusNotifyConfig>
             <SecurityPlatformMap>
